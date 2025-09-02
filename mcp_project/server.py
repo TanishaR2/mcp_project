@@ -42,5 +42,4 @@ def query_database(query: str) -> str:
     return str(result)
 
 if __name__ == "__main__":
-    print("Starting MCP server...")
     mcp.run()

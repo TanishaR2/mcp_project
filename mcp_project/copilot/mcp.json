@@ -1,0 +1,1 @@
+{"name": "PostgresQnA", "description": "MCP server to perform QnA on PostgreSQL database using Copilot.", "server": {"command": "python", "args": ["server.py"]}, "env": {"DB_HOST": "localhost", "DB_PORT": "5432", "DB_USER": "postgres", "DB_PASSWORD": "postgres", "DB_NAME": "datadesign_local"}}
